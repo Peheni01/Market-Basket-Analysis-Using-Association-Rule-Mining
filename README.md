@@ -11,13 +11,13 @@ This project delves into the purchasing patterns of consumers by employing Marke
   data.table: For fast aggregation of large data (e.g., big data).
   tidyverse: For data manipulation and visualization.
   ```
-  ### Key features
+### Key features
 - Association Rule Mining: Implements the Apriori algorithm to discover frequent itemsets and derive association rules from the dataset.
 - Data Preprocessing: Involves sorting data, removing duplicates, and transforming categorical attributes to binary format for analysis.
 - Visualization: Utilizes various plotting functions from arulesViz to display the strength of rules through support, confidence, and lift metrics.
 - Performance Evaluation: Analyzes the effectiveness of market strategies by evaluating the derived rules, focusing on those with high confidence and lift values to ensure actionable insights.
 
-📊 Visualization
+### 📊 Visualization
 - Bar Plots: To explore the frequency of items purchased.
 - Rule Plots: To visualize the association rules, highlighting their support and confidence.
 - Scatterplot Matrix: To display the relationship between support, confidence, and lift of the rules.
